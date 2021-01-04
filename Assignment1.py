@@ -110,6 +110,12 @@ class ExploratoryDataAnalysis:
             plt.scatter(quantDataOthers[i], df.sold_price)
             plt.title(quantTitleOthers[i])
             plt.show()
+
+    def corrMatrix():
+        df = ExploratoryDataAnalysis.cleanedDataSet()
+        pd.set_option('display.max_columns', None)
+        return df.corr()
+        
             
                               
     
