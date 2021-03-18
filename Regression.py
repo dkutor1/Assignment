@@ -9,6 +9,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from AS_1 import Assignment1 as as1
+import seaborn as sns
+import sweetviz as sw
 
 class linearRegression:
     def fit(self, X, y):
